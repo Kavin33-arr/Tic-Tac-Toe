@@ -1,0 +1,84 @@
+
+h1{
+    text-align: center;
+    font-size: 100px;
+    margin: 0px;
+    
+}
+.User{
+    text-align: center;
+    font-size: 70px;
+}
+input{
+    font-size: 70px;
+    border-bottom: 2px solid white;
+    border-right: 0px;
+    
+}
+#play{
+    font-size:60px;
+    border-radius: 20px;
+    border-color: aliceblue;
+    margin-bottom: 0px;
+}
+
+#play:hover{
+    cursor: pointer;
+    scale: 1.1;
+
+}
+
+.grid-item11,.grid-item21,.grid-item31,.grid-item12,.grid-item22,.grid-item32{
+    border-right:8px solid white;
+    border-left: 0px;
+    
+}
+.grid-item11,.grid-item12,.grid-item13,.grid-item21,.grid-item22,.grid-item23{
+    border-top : 0px;
+    border-bottom:8px solid white;
+}
+*{
+    position: relative;
+    color:white;
+    font-family: VT323;
+    background: black;
+}
+.grid-container{
+    position: fixed;
+    height:400px;
+    width:400px;
+    display: grid;
+    /*visibility: hidden;*/
+    grid-template-columns: auto auto auto;
+    text-align: center;
+    margin-left: 550px;
+}
+.grid-container button{
+    height :140px;
+    width :140px;
+    font-size: 50px;
+   
+
+}
+h6{
+    height:0px;
+    text-align: center;
+    font-size: 65px;
+    border-top: 2px solid white;
+    border-style: dotted;
+}
+
+li{
+    margin-top:0px;
+    color:aliceblue;
+    font-size: 30px;
+    padding: 10px;
+}
+
+
+#r11{
+    border-style:dotted;
+}
+.rules{
+    margin-top: 0;
+}
